@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--  <link rel="stylesheet" href="css/materialize.css">-->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+<!--    <link rel="stylesheet" href="css/bg-login.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        body{
+            background-image : url("img/winter.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<section>
+   <div class="container">
+       <div class="row">
+           <div class="col s8 offset-l2">
+                   <div class="card-action center-align  white-text" style="background-color: #1D7A8C; padding: 15px 0px ; margin-top: 15px" >
+                       <h5>Finalize Sale</h5>
+                   </div>
+               <div class="card" style="margin-top: 15px">
+                   <div class="card-content">
+                        <div class="row">
+                            <div class="col s3 offset-l0">
+                                <p>Previous due</p>
+                            </div>
+                            <div class="col s3 offset-l5 right-align">
+                                <p>$86</p>
+                            </div>
+                        </div>
+                       <div class="row">
+                            <div class="col s3 offset-l0">
+                                <p>Total payable</p>
+                            </div>
+                            <div class="col s3 offset-l5 right-align">
+                                <p>$756</p>
+                            </div>
+                        </div>
+                       <hr>
+                       <div class="row">
+                            <div class="col s3 offset-l0">
+                                <p>Payment Methods</p>
+                            </div>
+                            <div class="col s3 offset-l5 right-align">
+                                <select>
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">Cash</option>
+                                    <option value="2">Card</option>
+                                    <option value="3">Roket</option>
+                                    <option value="3">Bkash</option>
+                                </select>
+<!--                                <label>Select One</label>-->
+                            </div>
+                        </div>
+                       <hr>
+                         <div class="row">
+                             <div class="col s3">
+                                 <p>Paid amount</p><span> <input type="text" value="543"></span>
+                             </div>
+                         </div>
+                       <hr>
+                       <div class="row ">
+                            <div class="col s12 center-align">
+
+                             <p>This section just to help</p>
+                            </div>
+                             <div class="col s3">
+                                 <p>Given anount</p><span> <input type="text" value=""></span>
+                             </div>
+                         </div>
+                       <div class="row ">
+                            <div class="col s3">
+                                 <button class="btn red lighten-3 waves-effect waves-light"><i class="material-icons left">cancel</i>cancel</button>
+                             </div>
+                           <div class="col s3 offset-l4"></div>
+                                 <button class="btn waves-effect waves-light" style="background-color: #00B1CB"><i class="material-icons left">save</i>Save</button>
+                         </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/plugins.js"></script>
+<!--  <script src="js/materialize.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+</script>
+</body>
+
+</html>

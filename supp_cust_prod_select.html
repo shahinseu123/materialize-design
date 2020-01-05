@@ -1,0 +1,188 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--  <link rel="stylesheet" href="css/materialize.css">-->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--    <link rel="stylesheet" href="css/bg-login.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        body{
+            background-image : url("img/winter.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<section>
+    <div class="container">
+        <div class="card">
+           <div class="row" style="padding: 25px">
+               <div class="col s2">
+                   <p>Supplier</p>
+               </div>
+               <div class="col s2">
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Select All</span>
+                       </label>
+                   </p>
+               </div>
+               <div class="col s4 offset-l4">
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>View supplier</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Add supplier</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Edit supplier</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Delete supplier</span>
+                       </label>
+                   </p>
+               </div>
+           </div>
+            <div class="row" style="padding: 25px">
+               <div class="col s2">
+                   <p>Customer</p>
+               </div>
+               <div class="col s2">
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Select All</span>
+                       </label>
+                   </p>
+               </div>
+               <div class="col s4 offset-l4">
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>View customer</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Add customer</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Edit customer</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Delete customer</span>
+                       </label>
+                   </p>
+               </div>
+           </div>
+            <div class="row" style="padding: 25px">
+               <div class="col s2">
+                   <p>Product</p>
+               </div>
+               <div class="col s2">
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Select All</span>
+                       </label>
+                   </p>
+               </div>
+               <div class="col s4 offset-l4 ">
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>View product</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Add product</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Edit product</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Delete product</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>Add Opening Stock</span>
+                       </label>
+                   </p>
+                   <p>
+                       <label>
+                           <input type="checkbox"/>
+                           <span>View Purchase price</span>
+                       </label>
+                   </p>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/plugins.js"></script>
+<!--  <script src="js/materialize.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+</script>
+</body>
+
+</html>

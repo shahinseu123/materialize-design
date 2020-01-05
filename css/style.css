@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+/*login form */
+.login-col{
+    margin-top: 200px;
+}
+.input-field-custom{
+    margin-top: 20px;
+}
+.login-card{
+    margin-top: 100px;
+    max-width: 500px;
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+}
+.heading-top{
+    font-family: "sans-serif";
+    font-size: 60px;
+}
+/*end login form*/
+/*product list start */
+.text-black{
+    color: black;
+}
+.form-col-margin{
+    margin-top: 50px;
+}
+.card-bg{
+    background-color: white;
+    width: 900px;
+}
+.input-field-custom{
+    margin-top: 20px;
+}
+.card-content{
+
+}
+.col-margin-top{
+    margin-top: 37px;
+}
+.card-header-2{
+    padding: 15px 0px;
+    background-color: red;
+    margin-top: 8px;
+    margin-bottom: -20px;
+    background-color: #1D788B;
+}

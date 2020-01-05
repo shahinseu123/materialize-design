@@ -1,0 +1,359 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--  <link rel="stylesheet" href="css/materialize.css">-->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--    <link rel="stylesheet" href="css/bg-login.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        body{
+            background-image : url("img/winter.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<section>
+    <div class="container">
+       <div class="row">
+           <div class="col s12" style="padding-left: 0px; padding-right: 0px; margin-bottom: 28px">
+               <div class="card-action center-align card-header-2">
+                   <h4 class="white-text" style="padding-bottom: 5px">Purchase Return</h4>
+               </div>
+           </div>
+       </div>
+        <div class="row">
+            <div class="col s12" style="padding: 0px">
+                <div class="card" style="margin-top: -20px">
+                    <div class="row">
+                        <div class="col s2" style="padding-left: 25px; padding-top: 25px; padding-bottom: 25px">
+                            <button class="btn waves-effect waves-light"><i class="material-icons left">add</i>customer</button>
+                        </div>
+                        <div class="col s1" style="padding-left: 0px; padding-top: 25px; padding-bottom: 25px">
+                            <div class="input-field" style="margin-top: -12px; margin-left: -35px;">
+                                <input id="last_name" type="text" class="validate" placeholder="Invoice Number">
+<!--                                <label for="last_name">Last Name</label>-->
+                            </div>
+                        </div>
+                        <div class="col s1" style="margin-left: 30px; padding-top: 25px; padding-bottom: 25px">
+                            <div class="input-field" style="margin-top: -12px; margin-left: -35px;">
+                                <input type="text" class="datepicker" placeholder="Date">
+<!--                                <label for="last_name">Last Name</label>-->
+                            </div>
+                        </div>
+                        <div class="col s1" style="margin-left: 30px; padding-top: 25px; padding-bottom: 25px">
+                            <div class="input-field" style="margin-top: -12px; margin-left: -35px;">
+                                <input type="text" class="text" placeholder="Memu Number">
+<!--                                <label for="last_name">Last Name</label>-->
+                            </div>
+                        </div>
+                        <div class="col s1" style="margin-left: 30px; padding-top: 25px; padding-bottom: 25px">
+                            <div class="input-field" style="margin-top: -12px; margin-left: -35px;">
+                                <input type="text" class="datepicker" placeholder="Initate date">
+<!--                                <label for="last_name">Last Name</label>-->
+                            </div>
+                        </div>
+                        <div class="col s4 right-align" style="margin-left: 30px; padding-top: 25px; padding-bottom: 25px">
+                            <a href="" class="btn waves-effect waves-light "><i class="material-icons left">home</i>Home/Buy Product</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s2" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px; margin-top: 18px">
+                            <select>
+                                <option value="" disabled selected>Select Customer</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="col s1" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="address" type="text" value="Dhaka" class="validate">
+                                <label for="address">Address</label>
+                            </div>
+                        </div>
+                        <div class="col s1" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="category" type="text" value="Biscute" class="validate">
+                                <label for="address">Category</label>
+                            </div>
+                        </div>
+                        <div class="col s1" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="phone" type="text" value="894476730" class="validate">
+                                <label for="address">Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col s2" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="totalRec" type="text" value="Biscute" class="validate">
+                                <label for="address">Total Recieve</label>
+                            </div>
+                        </div>
+                        <div class="col s2" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="totalPay" type="text" value="456" class="validate">
+                                <label for="address">Total Payment</label>
+                            </div>
+                        </div>
+                        <div class="col s2" style="padding-left: 25px; padding-top: 10px; padding-bottom: 25px">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="totaldue" type="text" value="456" class="validate">
+                                <label for="address">Total Due</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-left: 20px">
+                        <div class="col s2">
+                            <div class="input-field">
+                                <select>
+                                    <option value="" disabled selected>Item Name</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                                <label>Product Local name</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                <label for="first_name">dp_uom</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name2" type="text" class="validate">
+                                <label for="first_name">dp_con</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name3" type="text" class="validate">
+                                <label for="first_name">tp_uom</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name4" type="text" class="validate">
+                                <label for="first_name">tp_con</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name5" type="text" class="validate">
+                                <label for="first_name">mrp_uom</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name6" type="text" class="validate">
+                                <label for="first_name">mrp_con</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name7" type="text" class="validate">
+                                <label for="first_name">prod_origin</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name8" type="text" class="validate">
+                                <label for="first_name">prod_group</label>
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="input-field">
+                                <input placeholder="Placeholder" id="first_name9" type="text" class="validate">
+                                <label for="first_name">prod_sub</label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="margin-top: -40px; padding: 0px">
+
+            <div class="row">
+                <div class="col s11" style="padding: 20px">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>prod_name_local</th>
+                            <th>Opening Stock</th>
+                            <th>uom</th>
+                            <th>rate_dp</th>
+                            <th>rate_tp</th>
+                            <th>uom</th>
+                            <th>rate_mrp</th>
+                            <th>uom</th>
+                            <th>qnty</th>
+                            <th>uom</th>
+                            <th>rate</th>
+                            <th>amount</th>
+                            <th>deduct+free</th>
+                            <th>close stock</th>
+                            <th>profit</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>23</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col s1" style="margin-top: 40px">
+                    <button class="btn waves-effect waves-light">Add</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s8">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>product_local_name</th>
+                            <th>qnty</th>
+                            <th>uom</th>
+                            <th>rate</th>
+                            <th>amount</th>
+                            <th>detuct+rate</th>
+                            <th>Profit</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                            <td>$0.87</td>
+                            <td>$0.87</td>
+                            <td>$0.87</td>
+                            <td>$0.87</td>
+                            <td>$0.87</td>
+                        </tr>
+                        <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                            <td>$3.76</td>
+                            <td>$3.76</td>
+                            <td>$3.76</td>
+                            <td>$3.76</td>
+                            <td>$3.76</td>
+                            <td>$3.76</td>
+                        </tr>
+                        <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>$7.00</td>
+                            <td>$7.00</td>
+                            <td>$7.00</td>
+                            <td>$7.00</td>
+                            <td>$7.00</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col 4">
+                        <table>
+<!--                            <thead>-->
+<!--                            <tr>-->
+<!--                                <th>Name</th>-->
+<!--                                <th>Item Name</th>-->
+<!--                                <th>Item Price</th>-->
+<!--                            </tr>-->
+<!--                            </thead>-->
+
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>subtotal</td>
+                                <td>delevary</td>
+                                <td>Others</td>
+                                <td>total</td>
+                                <td>discount</td>
+                                <td>grandtotal</td>
+                            </tr>
+                            <tr>
+                                <td>Jonathan</td>
+                                <td>Lollipop</td>
+                                <td>$7.00</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/plugins.js"></script>
+<!--  <script src="js/materialize.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+    $(document).ready(function(){
+        $('.datepicker').datepicker();
+    });
+</script>
+</body>
+
+</html>

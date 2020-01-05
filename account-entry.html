@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--  <link rel="stylesheet" href="css/materialize.css">-->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+<!--    <link rel="stylesheet" href="css/bg-login.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        body{
+            background-image : url("img/winter.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div class="container">
+    <div class="row">
+        <div class="card-action card-header-2">
+            <h5 class="center-align" style="color: white">Account entry/Update form</h5>
+        </div>
+        <div class="col s12 " style="margin-top: 28px; padding: 0px">
+            <ul id="tabs-swipe-demo" class="tabs manue-tab">
+                <li class="tab col s3"><a class="black-text" style="font-weight: 600;" href="#test-swipe-1" class="active">Information</a></li>
+                <li class="tab col s3"><a class="black-text" style="font-weight: 600;" href="#test-swipe-2">Status</a></li>
+                <li class="tab col s3"><a class="black-text" style="font-weight: 600;" href="#test-swipe-3">Test 3</a></li>
+                <li class="tab col s3"><a class="black-text" style="font-weight: 600;" href="#test-swipe-4">Test 4</a></li>
+            </ul>
+            <div id="test-swipe-1" class="col s12 gray">
+<!--                <div class="container">-->
+                    <div class="row">
+                        <div class="col l12 z-depth-1 card-bg">
+                                <div class="card-content">
+                                <div class="row form-col-margin">
+                                    <form class="col s12">
+                                        <div class="row">
+
+                                            <div class="input-field col s6">
+                                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                                                <label for="first_name">First Name</label>
+                                            </div>
+                                            <div class="input-field col s6">
+                                                <input id="last_name" type="text" class="validate">
+                                                <label for="last_name">Last Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s6">
+                                                <input value="" id="father_name" type="text" class="validate">
+                                                <label for="father_name">Father Name</label>
+                                            </div>
+
+                                            <div class="input-field col s6">
+                                                <input id="localname" type="text" class="validate">
+                                                <label for="localname">Lacal name</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col s3">
+                                            <p>
+                                                <label>
+                                                    <input name="gender" type="radio" checked />
+                                                    <span>Male</span>
+                                                </label>
+                                            </p>
+                                            </div>
+                                            <div class="col s3">
+                                            <p>
+                                                <label>
+                                                    <input name="gender" type="radio" />
+                                                    <span>Female</span>
+                                                </label>
+                                            </p>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="phone" type="number" class="validate">
+                                                <label for="phone">Phone</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="address-1" type="text" class="validate">
+                                                <label for="address-1">Address 1</label>
+                                            </div>
+                                        </div>
+                                       <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="address-2" type="text" class="validate">
+                                                <label for="address-2">Address 2</label>
+                                            </div>
+                                        </div>
+
+                                    <div class="card-link right-align">
+                                        <button class="btn waves-effect waves-light " style="background-color: #00B1CB"> <i class="material-icons left">save</i>Submit</button>
+                                    </div>
+                                    </form>
+                                  </div>
+
+                            </div>
+                        </div>
+                    </div>
+<!--                </div>-->
+            </div>
+            <div class="row">
+            <div id="test-swipe-2" class="col s12 gray">
+                <div class="card" >
+                    <div class="card-content">
+
+                        <div class="row">
+                            <div class="col s3 offset-l3 left-align col-margin-top" >
+                                <p>Opening Balance</p>
+                            </div>
+                            <div class="input-field col s3">
+                                <i class="material-icons prefix">monetization_on</i>
+                                <input type="text" id="autocomplete-input" value="7345" class="autocomplete">
+<!--                                <label for="autocomplete-input">Autocomplete</label>-->
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s3 offset-l3 left-align col-margin-top" >
+                                <p>Current Balance</p>
+                            </div>
+                            <div class="input-field col s3">
+                                <i class="material-icons prefix">monetization_on</i>
+                                <input type="text" id="autocomplete-input2" value="7345" class="autocomplete">
+<!--                                <label for="autocomplete-input">Autocomplete</label>-->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s3 offset-l3 left-align col-margin-top" >
+                                <p>Total Receive</p>
+                            </div>
+                            <div class="input-field col s3">
+                                <i class="material-icons prefix">monetization_on</i>
+                                <input type="text" id="autocomplete-input3" value="7345" class="autocomplete">
+<!--                                <label for="autocomplete-input">Autocomplete</label>-->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s3 offset-l3 left-align col-margin-top" >
+                                <p>Total Payment</p>
+                            </div>
+                            <div class="input-field col s3">
+                                <i class="material-icons prefix">monetization_on</i>
+                                <input type="text" id="autocomplete-input4" value="985" class="autocomplete">
+<!--                                <label for="autocomplete-input">Autocomplete</label>-->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s3 offset-l3 left-align col-margin-top" >
+                                <p>Total Discount</p>
+                            </div>
+                            <div class="input-field col s3">
+                                <i class="material-icons prefix">monetization_on</i>
+                                <input type="text" id="autocomplete-input5" value="75" class="autocomplete">
+<!--                                <label for="autocomplete-input">Autocomplete</label>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="test-swipe-3" class="col s12 gray">
+
+            </div>
+            <div id="test-swipe-4" class="col s12 gray">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/plugins.js"></script>
+<!--  <script src="js/materialize.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.tabs').tabs();
+    });
+
+</script>
+</body>
+
+</html>

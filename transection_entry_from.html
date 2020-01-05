@@ -1,0 +1,300 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--  <link rel="stylesheet" href="css/materialize.css">-->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--    <link rel="stylesheet" href="css/bg-login.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        body{
+            background-image : url("img/winter.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<section>
+    <div class="container">
+       <div class="row">
+           <div class="col s12">
+               <div class="card-action center-align card-header-2">
+                   <h4 class="white-text" style="padding-bottom: 5px">Transections Entry Form</h4>
+               </div>
+               <div class="card">
+                   <div class="row">
+                           <div class="col s2" style="padding: 25px">
+                               <button class="btn waves-effect waves-light" style="background-color: #00B1CB"><i class="material-icons left">add</i>Supplier</button>
+                           </div>
+                           <div class="col s2" >
+                               <div class="input-field">
+                                   <input placeholder="Invoice Number" id="invoice_number" type="text" class="validate">
+<!--                                   <label for="first_name">First Name</label>-->
+                               </div>
+                           </div>
+                       <div class="col s2 " style="padding: 17px" >
+                           <input type="text" placeholder="Date" class="datepicker">
+                        </div>
+                       <div class="col s2" >
+                           <div class="input-field">
+                               <input placeholder="Mamu Number" id="memu_num" type="text" class="validate">
+<!--                               <label for="date_ini">First Name</label>-->
+                           </div>
+                        </div>
+                       <div class="col s4 " style="padding: 17px" >
+                           <input type="text" placeholder="Initate date" class="datepicker">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col s2" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <select>
+                                       <option value="" disabled selected>Select Supplier</option>
+                                       <option value="1">Option 1</option>
+                                       <option value="2">Option 2</option>
+                                       <option value="3">Option 3</option>
+                                   </select>
+                                    <label>Customer Name</label>
+                               </div>
+                       </div>
+                       <div class="col s2" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <input type="text" id="adderss" value="Dhaka">
+                                   <label>Address</label>
+                               </div>
+                       </div>
+                       <div class="col s1" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <input type="text" id="category" value="Food">
+                                   <label>Category</label>
+                               </div>
+                       </div>
+                       <div class="col s2" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <input type="text" id="mobile_no" value="938560363098">
+                                   <label>Mobile Number</label>
+                               </div>
+                       </div>
+                       <div class="col s2" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <input type="text" id="total_rec" value="65">
+                                   <label>Total Rceive</label>
+                               </div>
+                       </div>
+                       <div class="col s2" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <input type="text" id="total_pay" value="65">
+                                   <label>Total Payment</label>
+                               </div>
+                       </div><div class="col s1" style="padding: 0px 25px">
+                               <div class="input-field">
+                                   <input type="text" id="total_due" value="65">
+                                   <label>Total Due</label>
+                               </div>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col s6" style="padding-left: 25px; padding-right: 2px; padding-bottom: 10px">
+                           <buttton class="btn waves-effect waves-light" style="width: 100%; background-color: #00B1CB"><span style="display: inline-block"><i class="material-icons left">monetization_on</i>receiver(BR)</span></buttton>
+                       </div>
+                       <div class="col s6" style="padding-right: 25px; padding-left: 2px; padding-bottom: 10px">
+                           <buttton class="btn waves-effect waves-light red lighten-3" style="width: 100%; "><span style="display: inline-block"><i class="material-icons left">payment</i>Payment(DR)</span></buttton>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col s1" style="padding: 25px">
+                           <div class="input-field">
+                               <input placeholder="Placeholder" id="bb" type="text" value="BB" class="validate">
+<!--                               <label for="bb">First Name</label>-->
+                           </div>
+                       </div>
+                       <div class="col s2" style="padding-left: 0px; padding-bottom: 25px; padding-top: 25px">
+                           <div class="input-field">
+                               <select>
+                                   <option value="" disabled selected>Please select</option>
+                                   <option value="1">Option 1</option>
+                                   <option value="2">Option 2</option>
+                                   <option value="3">Option 3</option>
+                               </select>
+                           </div>
+                       </div>
+                       <div class="col s1" style="padding-left: 2px; padding-bottom: 25px; padding-top: 25px">
+                           <div class="input-field">
+                               <select>
+                                   <option value="" disabled selected>Amount</option>
+                                   <option value="1">Option 1</option>
+                                   <option value="2">Option 2</option>
+                                   <option value="3">Option 3</option>
+                               </select>
+                           </div>
+                       </div>
+                      <div class="row">
+                          <div class="col s1" style="padding-left: 2px; padding-bottom: 25px; padding-top: 25px">
+                              <div class="input-field">
+                                  <input placeholder="Placeholder" id="receive_discount" type="text" value="rec_discount" class="validate">
+                                  <!--                               <label for="bb">First Name</label>-->
+                              </div>
+                          </div>
+                          <div class="col s1" style="padding-left: 2px; padding-bottom: 25px; padding-top: 25px">
+                              <div class="input-field">
+                                  <input placeholder="Particular" id="particular" type="text" value="" class="validate">
+                                  <!--                               <label for="bb">First Name</label>-->
+                              </div>
+                          </div>
+                          <div class="col s1" style="padding-left: 2px; padding-bottom: 25px; padding-top: 25px">
+                              <div class="input-field">
+                                  <select>
+                                      <option value="" disabled selected>Expences</option>
+                                      <option value="1">Option 1</option>
+                                      <option value="2">Option 2</option>
+                                      <option value="3">Option 3</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="col s1" style="padding-left: 2px; padding-bottom: 25px; padding-top: 25px">
+                              <div class="input-field">
+                                  <input placeholder="" id="dkjf" type="text" value="3455" class="validate">
+                              </div>
+                          </div>
+                          <div class="col s2" style="padding-left: 2px; padding-bottom: 25px; padding-top: 25px">
+                              <div class="input-field">
+                                  <div class="input-field">
+                                      <input placeholder="Placeholder" id="payment_discount" type="text" value="payment_discount" class="validate">
+                                      <!--                               <label for="bb">First Name</label>-->
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col s1" style="padding-left: 5px; padding-bottom: 25px; padding-top: 25px">
+                              <div class="input-field">
+                                  <input placeholder="" id="dkjfgf" type="text" value="3455" class="validate">
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                       <div class="col s12 right-align" style="padding-left: 25px; padding-right: 25px; padding-bottom: 25px">
+                           <button class="btn waves-effect waves-light" style="background-color: #00B1CB"><i class="material-icons left" >add</i>add</button>
+                       </div>
+                   </div>
+                   <div class="row">
+                      <div class="col s12" style="padding-right: 25px; padding-left: 25px; padding-bottom: 25px">
+                          <table class="responsive-table" >
+                              <thead>
+                              <tr>
+                                  <th>ID</th>
+                                  <th>Account Name</th>
+                                  <th>Category</th>
+                                  <th>Mobile</th>
+                                  <th>Address</th>
+                                  <th>category</th>
+                                  <th>amount</th>
+                                  <th>discount</th>
+                                  <th>category</th>
+                                  <th>amount</th>
+                                  <th>discount</th>
+                                  <th>balance</th>
+                                  <th>Action</th>
+                              </tr>
+                              </thead>
+
+                              <tbody>
+                              <tr>
+                                  <td>12</td>
+                                  <td>Eclair</td>
+                                  <td>Eclair</td>
+                                  <td>Eclair</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td> <button class="btn-floating pulse red lighten-2"> <i class="material-icons">delete</i></button>
+                              </tr>
+                              <tr>
+                                  <td>12</td>
+                                  <td>Eclair</td>
+                                  <td>Eclair</td>
+                                  <td>Eclair</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td> <button class="btn-floating pulse red lighten-2"> <i class="material-icons">delete</i></button>
+                              </tr>
+                              <tr>
+                                  <td>12</td>
+                                  <td>Eclair</td>
+                                  <td>Eclair</td>
+                                  <td>Eclair</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td>$0.87</td>
+                                  <td> <button class="btn-floating pulse red lighten-2"> <i class="material-icons">delete</i></button>
+                              </tr>
+                              </tbody>
+                          </table>
+
+                      </div>
+                   </div>
+                   <div class="row">
+                       <div class="col s12 " style="padding: 25px">
+                           <button class="btn waves-effect waves-light" style="background-color: #00B1CB"><i class="material-icons left">save</i>Save payment</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</section>
+
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/plugins.js"></script>
+<!--  <script src="js/materialize.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.datepicker').datepicker();
+    });
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!--  <link rel="stylesheet" href="css/materialize.css">-->
+    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--    <link rel="stylesheet" href="css/bg-login.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        body{
+            background-image : url("img/winter.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card-action center-align card-header-2">
+                    <h4 class="white-text" style="padding-bottom: 5px; margin-bottom: 0px">Low Stock</h4>
+                </div>
+                <div class="card">
+
+                    <div class="row">
+                        <div style="padding: 10px">
+                            <div class="col s4">
+                                <button class="btn waves-effect waves-light " style="background-color: #00B1CB"><i class="material-icons left">print</i>Print</button>
+                                <button class="btn waves-effect waves-light " style="background-color: #00B1CB"><i class="material-icons left">queue</i>Excel</button>
+                                <button class="btn waves-effect waves-light " style="background-color: #00B1CB"><i class="material-icons left">picture_as_pdf</i>PDF</button>
+                            </div>
+
+                        </div>
+                        <div class="col s1">
+                        </div>
+                        <div class="input-field col s6">
+                            <input placeholder="Search ..." id="first_name" type="text" class="validate">
+                            <label for="first_name">Search</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12" style="padding: 20px">
+                            <table class="responsive-table">
+                                <thead>
+                                <tr>
+                                    <th>SN</th>
+                                    <th>Item(Code)</th>
+                                    <th>category</th>
+                                    <th>Stock Qty/Amount(Purchase Unit)</th>
+                                    <th>Stock Qty/Amount(sale Unit)</th>
+                                    <th>Low Qty/Amt</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>Alvin</td>
+                                    <td>Eclair</td>
+                                    <td>$0.87</td>
+                                    <td>$0.87</td>
+                                    <td >$0.87</td>
+                                    <td class="red-text darken-2">74Unit</td>
+                                </tr>
+                                <tr>
+                                    <td >Jonathan</td>
+                                    <td >Lollipop</td>
+                                    <td >$7.00</td>
+                                    <td >$7.00</td>
+                                    <td >$7.00</td>
+                                    <td class="red-text darken-2">4Unit</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<script src="js/materialize.min.js"></script>
+<script src="js/plugins.js"></script>
+<!--  <script src="js/materialize.js"></script>-->
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+</script>
+</body>
+
+</html>
